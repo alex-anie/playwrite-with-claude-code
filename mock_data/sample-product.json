@@ -1,0 +1,9 @@
+{
+  "id": 1,
+  "name": "Poco X3 Pro",
+  "category": "Phone, Tablets & Ipod",
+  "price": 249.99,
+  "currency": "USD",
+  "description": "Sample product fixture for Playwright test data.",
+  "tags": ["mobile", "electronics", "accessories"]
+}
