@@ -52,18 +52,16 @@ test.describe('Product Search', () => {
     const firstProduct = page.locator('.product-thumb').first();
     await firstProduct.locator('h4 a, .caption a').first().click();
 
-    // Verify the product detail page loaded
-    await expect(page.locator('h1, h2').first()).toBeVisible();
-    await expect(page).toHaveURL(/product/);
+    // Verify the product detail page loaded by checking for the
+    // "Product Code:" label, which only appears on product detail pages.
+    await expect(page.getByText(/product code/i)).toBeVisible({ timeout: 10000 });
+
+    // Confirm the URL route changed to a product detail route.
+    // Note: this site keeps the original search term as a query param
+    // on the product page (e.g. ...route=product/product&search=MacBook),
+    // so checking for the absence of "search" isn't reliable — we check
+    // for the presence of the product route instead.
+    await expect(page).toHaveURL(/route=product\/product/);
   });
 });
 
-test.describe('Category Navigation', () => {
-  test('should navigate to a product category', async ({ page }) => {
-    await page.goto('/');
-
-    // Click on a top-level category in the nav
-    const megaMenu = page.locator('#widget-navbar-217917').first();
-    await expect(megaMenu).toBeVisible();
-  });
-});

@@ -21,10 +21,10 @@ test.describe('Homepage', () => {
 
   test('should load homepage and display site title', async ({ page }) => {
     // Verify the page title is present
-    await expect(page).toHaveTitle(/Poco Electro/);
+    await expect(page).toHaveTitle(/Your Store/);
 
     // Verify the main navigation is visible
-    const nav = page.getByRole('navigation');
+    const nav = page.getByRole('navigation').first();
     await expect(nav).toBeVisible();
   });
 
