@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 const fs = require('fs');
 
-test('scrape: save first page products to JSON', async ({ page }) => {
+test('scrape: save first page products to JSON', { tag: '@agentic' }, async ({ page }) => {
   test.info().annotations.push({ type: 'tag', description: 'agentic' });
   await page.goto('https://ecommerce-playground.lambdatest.io/index.php?route=product/category&path=57');
   const products = page.locator('.product-layout');

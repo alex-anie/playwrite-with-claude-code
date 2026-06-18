@@ -1,77 +1,77 @@
 [
   {
-    "product_name": "HTC Touch HD",
+    "title": "HTC Touch HD",
     "price": "$146.00",
-    "product_image": "https://ecommerce-playground.lambdatest.io/image/cache/catalog/maza/demo/mz_poco/megastore-2/product/1-270x338.webp"
+    "img": ""
   },
   {
-    "product_name": "Palm Treo Pro",
+    "title": "Palm Treo Pro",
     "price": "$337.99",
-    "product_image": "https://ecommerce-playground.lambdatest.io/image/cache/catalog/maza/demo/mz_poco/megastore-2/product/2-270x338.webp"
+    "img": ""
   },
   {
-    "product_name": "Canon EOS 5D",
+    "title": "Canon EOS 5D",
     "price": "$134.00",
-    "product_image": "https://ecommerce-playground.lambdatest.io/image/cache/catalog/maza/demo/mz_poco/megastore-2/product/3-270x338.webp"
+    "img": ""
   },
   {
-    "product_name": "Nikon D300",
+    "title": "Nikon D300",
     "price": "$98.00",
-    "product_image": "https://ecommerce-playground.lambdatest.io/image/cache/catalog/maza/demo/mz_poco/megastore-2/product/4-270x338.webp"
+    "img": ""
   },
   {
-    "product_name": "iPod Touch",
+    "title": "iPod Touch",
     "price": "$194.00",
-    "product_image": "https://ecommerce-playground.lambdatest.io/image/cache/catalog/maza/demo/mz_poco/megastore-2/product/5-270x338.webp"
+    "img": ""
   },
   {
-    "product_name": "Samsung SyncMaster 941BW",
+    "title": "Samsung SyncMaster 941BW",
     "price": "$242.00",
-    "product_image": "https://ecommerce-playground.lambdatest.io/image/cache/catalog/maza/demo/mz_poco/megastore-2/product/6-270x338.webp"
+    "img": ""
   },
   {
-    "product_name": "iPod Shuffle",
+    "title": "iPod Shuffle",
     "price": "$182.00",
-    "product_image": "https://ecommerce-playground.lambdatest.io/image/cache/catalog/maza/demo/mz_poco/megastore-2/product/7-270x338.webp"
+    "img": ""
   },
   {
-    "product_name": "iPod Nano",
+    "title": "iPod Nano",
     "price": "$122.00",
-    "product_image": "https://ecommerce-playground.lambdatest.io/image/cache/catalog/maza/demo/mz_poco/megastore-2/product/8-270x338.webp"
+    "img": ""
   },
   {
-    "product_name": "iPhone",
+    "title": "iPhone",
     "price": "$123.20",
-    "product_image": "https://ecommerce-playground.lambdatest.io/image/cache/catalog/maza/demo/mz_poco/megastore-2/product/9-270x338.webp"
+    "img": ""
   },
   {
-    "product_name": "iMac",
+    "title": "iMac",
     "price": "$170.00",
-    "product_image": "https://ecommerce-playground.lambdatest.io/image/cache/catalog/maza/demo/mz_poco/megastore-2/product/10-270x338.webp"
+    "img": ""
   },
   {
-    "product_name": "Apple Cinema 30\"",
+    "title": "Apple Cinema 30\"",
     "price": "$122.00",
-    "product_image": "https://ecommerce-playground.lambdatest.io/image/cache/catalog/demo/apple_cinema_30-270x338.webp"
+    "img": ""
   },
   {
-    "product_name": "MacBook",
+    "title": "MacBook",
     "price": "$602.00",
-    "product_image": "https://ecommerce-playground.lambdatest.io/image/cache/catalog/maza/demo/mz_poco/megastore-2/product/12-270x338.webp"
+    "img": ""
   },
   {
-    "product_name": "MacBook Air",
+    "title": "MacBook Air",
     "price": "$1,202.00",
-    "product_image": "https://ecommerce-playground.lambdatest.io/image/cache/catalog/maza/demo/mz_poco/megastore-2/product/13-270x338.webp"
+    "img": ""
   },
   {
-    "product_name": "MacBook Pro",
+    "title": "MacBook Pro",
     "price": "$2,000.00",
-    "product_image": "https://ecommerce-playground.lambdatest.io/image/cache/catalog/maza/demo/mz_poco/megastore-2/product/14-270x338.webp"
+    "img": ""
   },
   {
-    "product_name": "Sony VAIO",
+    "title": "Sony VAIO",
     "price": "$1,202.00",
-    "product_image": "https://ecommerce-playground.lambdatest.io/image/cache/catalog/maza/demo/mz_poco/megastore-2/product/15-270x338.webp"
+    "img": ""
   }
 ]
