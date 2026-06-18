@@ -1,5 +1,28 @@
 import { test, expect } from '@playwright/test';
 
+test('auth: register, logout, login', async ({ page }) => {
+  test.info().annotations.push({ type: 'tag', description: 'agentic' });
+  await page.goto('https://ecommerce-playground.lambdatest.io/index.php?route=account/register');
+  const ts = Date.now();
+  const email = `agentic_${ts}@example.com`;
+  await page.fill('input[name="firstname"]', 'Agent');
+  await page.fill('input[name="lastname"]', 'Smith');
+  await page.fill('input[name="email"]', email);
+  await page.fill('input[name="telephone"]', '1234567890');
+  await page.fill('input[name="password"]', 'Test@1234');
+  await page.fill('input[name="confirm"]', 'Test@1234');
+  await page.check('input[name="agree"]');
+  await page.click('input[type="submit"]');
+  await expect(page.locator('h1')).toHaveText(/Your Account Has Been Created/i);
+  await page.click('a[href*="logout"]');
+  await page.goto('https://ecommerce-playground.lambdatest.io/index.php?route=account/login');
+  await page.fill('input[name="email"]', email);
+  await page.fill('input[name="password"]', 'Test@1234');
+  await page.click('input[type="submit"]');
+  await expect(page.locator('h2')).toHaveText(/My Account/i);
+});
+import { test, expect } from '@playwright/test';
+
 /**
  * User Authentication Tests
  * Site: https://ecommerce-playground.lambdatest.io/
