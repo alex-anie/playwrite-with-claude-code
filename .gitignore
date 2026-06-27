@@ -25,8 +25,10 @@ videos/
 Thumbs.db
 
 # Editor files
-.vscode/settings.json
 *.log
 
-# Keep the MCP config
-!.vscode/mcp.json
+# Keep the Claude Code MCP config
+!.mcp.json
+
+# Playwright MCP session cache
+.playwright-mcp/

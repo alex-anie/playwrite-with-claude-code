@@ -21,16 +21,6 @@ test('auth: register, logout, login', async ({ page }) => {
   await page.click('input[type="submit"]');
   await expect(page.locator('h2')).toHaveText(/My Account/i);
 });
-import { test, expect } from '@playwright/test';
-
-/**
- * User Authentication Tests
- * Site: https://ecommerce-playground.lambdatest.io/
- *
- * Generated with Claude Code + Playwright MCP Server.
- * Claude analyzed the login and registration forms, identified
- * input fields, validation states, and error messages.
- */
 
 test.describe('User Login', () => {
   test.beforeEach(async ({ page }) => {
